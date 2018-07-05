@@ -4,9 +4,6 @@
  
 LSM6DS3 myIMU; //Default constructor is I2C, addr 0x6B
 
-int tab = 0; // initialize tab 
-int period = 500;
-
 void setup() {
   Serial.begin(74880);
   delay(1000); 
